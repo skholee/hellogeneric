@@ -1,0 +1,2 @@
+# hellogeneric
+hello go generic
