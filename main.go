@@ -12,4 +12,8 @@ func main() {
 	fmt.Printf("No-Generic filters: %v and %v\n",
 		FilterInts(ints, predicateOfInt),
 		FilterFloat64s(float64s, predicateOfFloat64))
+
+	fmt.Printf("Reflect filters: %v and %v\n",
+		FilterByReflect(ints, predicateOfInt),
+		FilterByReflect(float64s, predicateOfFloat64))
 }
